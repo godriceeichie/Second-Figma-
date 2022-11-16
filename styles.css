@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper>div{
+    width: 100%;
+    height: fit-content;
+}
+.grid1{
+    background-color: red;
+    grid-column: span 2;
+}
+.grid2{
+    background-color: green;
+}
+.grid3{
+    background-color: blue;
+    grid-row: span 2;
+    height: 100%;
+}
+.grid4{
+    background-color: blueviolet;
+}
+.grid5{
+    background-color: peru;
+    grid-column: span 2;
+}
+
+@media screen and (max-width: 450px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

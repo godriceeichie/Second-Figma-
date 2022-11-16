@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Inter&family=Lato&family=Nunito:ital@0;1&family=PT+Serif:ital@0;1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    background-color: gainsboro;
+}
+
+.container1{
+    /* min-width: 30%; */
+    background: #733FC8;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* display: grid;
+    grid-template-rows: 1fr 2fr; */
+    /* z-index: 1; */
+}
+
+.quote{
+    position: absolute;
+    top: 0;
+    left: 70%;
+    z-index: 0;
+    height: 50%;
+    width: 25%;
+}
+.header1{
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+    margin-bottom: 17px;
+    width: max-content;
+}
+
+.header1 img{
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.name1{
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+.status{
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    align-items: stretch;
+}
+.main1-1{
+    z-index: 1;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 90%;
+    margin-bottom: 8px;
+}
+
+.main1-2{
+    z-index: 2;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #CFCFCF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.container2{
+    background: #48556A;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    padding: 20px;
+    grid-auto-columns: minmax(100px, auto);
+    /* display: grid;
+    grid-template-rows: 1fr 2fr; */
+}
+
+.header2 img{
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header2{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 17px;
+}
+
+.name2{
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+.main2-1{
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+.main2-2{
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.container3{
+    grid-row: span 2;
+    background: #FFFFFF;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.header3{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 17px;
+}
+
+.name3{
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #48556A;
+}
+
+.status1{
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #48556A;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.container4{
+    background: #FFFFFF;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+}
+
+.container5{
+    grid-column: span 2;
+    background: #19202D;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+}
+
+.header3{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 17px;
+}
+
+
+
